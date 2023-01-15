@@ -1,0 +1,10 @@
+$font-path: '../../fonts/CeraPro-Medium.eot';
+
+@font-face {
+  font-family: 'CeraPro';
+  src: local('☺'), url('../fonts/CeraPro-Medium.woff') format('woff'),
+    url('../fonts/CeraPro-Medium.ttf') format('truetype'),
+    url('../fonts/CeraPro-Medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}

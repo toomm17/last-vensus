@@ -1,0 +1,47 @@
+.promocode-inputs {
+  width: 100%;
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  input {
+    width: 120px;
+    height: 140px;
+    background: #000000;
+    border: 6px solid #272727;
+    border-radius: 15.0837px;
+    color: #fff;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 55px;
+  }
+
+  @media screen and (max-width: 479px) {
+    .promocode-input {
+      width: 50px;
+      height: 55px;
+      border-radius: 10.0837px;
+      margin-right: 5px;
+    }
+  }
+
+  @media screen and (max-width: 928px) {
+    .promocode-input {
+      width: 50px;
+      height: 70px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    /* стили для средних планшетов - начало */
+  }
+
+  input:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .promocode-inputs {
+    display: none;
+  }
+}

@@ -1,0 +1,39 @@
+<template>
+  <div class="logo">
+    <img src="@/assets/img/logo.svg" alt="logo" />
+    <span>vensus</span>
+    <span id="dot">.</span>
+  </div>
+</template>
+
+<style scoped lang="scss">
+.logo {
+  position: absolute;
+  left: 55px;
+  display: flex;
+  align-items: center;
+  top: 20px;
+
+  span {
+    font-family: 'CeraPro';
+    font-size: 25.5px;
+    line-height: 32px;
+  }
+
+  img {
+    margin-right: 10px;
+  }
+
+  #dot {
+    color: #ff4900;
+  }
+}
+</style>
+
+<script>
+export default {
+  data() {
+    return {};
+  },
+};
+</script>

@@ -1,0 +1,52 @@
+.phone-eggs-__- {
+  width: 100%;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.phone-eggs-__- {
+  display: none;
+  font-size: 25px;
+  font-family: 'CeraPro';
+  color: #fff;
+}
+
+.phone-error-container {
+  width: 100%;
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+
+.phone-error {
+  font-family: 'CeraPro';
+  font-size: 55px;
+  margin-top: 200px;
+}
+
+.phone-error-lost-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'CeraPro';
+  font-size: 45px;
+  margin: 25px auto;
+
+  span {
+    font-size: 45px;
+    color: #ff4900;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .phone-eggs-__- {
+    display: inline-block;
+    font-size: 32px;
+
+    span {
+      color: #ff4900;
+    }
+  }
+}

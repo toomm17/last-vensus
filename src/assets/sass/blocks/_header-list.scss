@@ -1,0 +1,32 @@
+.header__nav {
+  margin-left: 89px;
+  position: absolute;
+  left: 290px;
+  top: 23px;
+
+  @media screen and (max-width: 1480px) {
+    left: 150px;
+  }
+
+  @media screen and (max-width: 1160px) {
+    left: 320px;
+
+    .active span {
+      display: none;
+    }
+  }
+
+  ul {
+    display: flex;
+  }
+
+  li:not(:last-child) {
+    margin-right: 65px;
+  }
+
+  svg {
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+  }
+}

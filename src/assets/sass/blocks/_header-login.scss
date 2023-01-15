@@ -1,0 +1,95 @@
+.theme-dark {
+  --btn-color: #272727;
+  --svg-color: #ffffff;
+}
+
+.theme-white {
+  --btn-color: #e6e6e6;
+  --svg-color: #363636;
+}
+
+$btn-color: var(--btn-color);
+$svg-color: var(--svg-color);
+
+.header__login {
+  position: absolute;
+  right: 55px;
+  top: 15px;
+
+  @media screen and (max-width: 1480px) {
+    // margin-left: 0;
+  }
+
+  @media screen and (max-width: 1160px) {
+    margin-left: 50px;
+
+    .connect__btn span {
+      display: none;
+    }
+
+    #arrow-svg {
+      display: none;
+    }
+
+    #wallet-svg {
+      margin-left: 8px;
+    }
+  }
+
+  a {
+    display: inline-flex;
+    background: $btn-color;
+    align-items: center;
+    margin-right: 15px;
+  }
+
+  a:last-child {
+    margin-right: 0;
+  }
+
+  #wallet-svg {
+    margin-right: 12px;
+  }
+
+  #arrow-svg {
+    margin-left: 10px;
+  }
+
+  .connect__btn {
+    height: 48px;
+    line-height: 48px;
+    padding-left: 23px;
+    padding-right: 20px;
+    border-radius: 24.5px;
+  }
+
+  .theme__btn {
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+  }
+
+  .profile__btn {
+    width: 89px;
+    height: 52px;
+    border-radius: 25.5219px;
+
+    .profile__letter {
+      width: 51.76px;
+      height: 51.76px;
+      border-radius: 100%;
+      background: #ff4900;
+      border: 3px solid #515151;
+      color: #922a00;
+      font-weight: 500;
+      font-size: 27.1727px;
+      line-height: 41px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

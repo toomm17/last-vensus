@@ -47,7 +47,7 @@
       </svg>
     </template>
   </a>
-  <coin-menu v-if="this.currentState === 2" @popupOpen="this.popupHandle(coinName)" />
+  <coin-menu v-if="this.currentState === 2" @popupOpen="this.popupOpenHandle" />
 </template>
 
 <style scoped lang="scss">
@@ -74,7 +74,6 @@ export default {
         1: 'Close',
         2: 'Chains menu',
         3: 'Wallets menu',
-        4: '',
       },
       currentState: 1,
     };
@@ -89,8 +88,9 @@ export default {
       }
     },
 
-    popupHandle(coinName) {
-      this.$emit('popupOpen', { coinName: coinName });
+    popupOpenHandle(wallets) {
+      console.log(wallets, 'Connect wallet popupHandle');
+      this.$emit('popupOpen', { wallets: wallets });
     },
   },
 };

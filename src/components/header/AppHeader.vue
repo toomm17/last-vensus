@@ -5,13 +5,13 @@
         <app-logo />
         <app-urls />
         <div class="header__login">
-          <connect-wallet @popupOpen="this.popupOpenHandle(coinName)" />
+          <connect-wallet @popupOpen="this.popupOpenHandle" />
           <theme-btn />
           <profile-btn />
         </div>
         <detect-wallets
           :show="this.popupIsOpen"
-          :wallets="this.coinName"
+          :wallets="this.wallets"
           @closePopup="this.popupIsOpen = false"
         />
       </div>
@@ -103,13 +103,15 @@ export default {
   data() {
     return {
       popupIsOpen: false,
-      coinName: {},
+      wallets: {},
     };
   },
 
   methods: {
-    popupOpenHandle(coinName) {
-      (this.popupIsOpen = true), (this.coinName = coinName);
+    popupOpenHandle(wallets) {
+      console.log(wallets, 'popupOpenHandle');
+      this.popupIsOpen = true;
+      this.wallets = wallets;
     },
   },
 };

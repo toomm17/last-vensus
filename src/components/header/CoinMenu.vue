@@ -65,14 +65,16 @@
 </style>
 
 <script>
+import Metamask from '@/services/wallets/metamask';
+import Phantom from '@/services/wallets/phantom';
+
 export default {
   data() {
     return {
       coins: [
-        { name: 'BNB', img: 'bnb-logo.svg', wallets: ['Metamask'] },
-        { name: 'SOL', img: 'sol.svg', wallets: ['Metamask'] },
-        { name: 'ETH', img: 'eth-logo.svg', wallets: ['Metamask'] },
-        { name: 'TON', img: 'ton-logo.png', wallets: ['Metamask'] },
+        { name: 'BNB', img: 'bnb-logo.svg', wallets: [Metamask] },
+        { name: 'SOL', img: 'sol.svg', wallets: [Phantom] },
+        { name: 'ETH', img: 'eth-logo.svg', wallets: [Metamask] },
       ],
     };
   },
@@ -83,7 +85,16 @@ export default {
 
   methods: {
     clickOnCoin(coinName) {
-      this.$emit('popupOpen', { coinName: coinName });
+      const coinWallets = this.getCoinWallets(coinName);
+      this.$emit('popupOpen', coinWallets);
+    },
+
+    getCoinWallets(coin) {
+      for (let item of this.coins) {
+        if (item.name == coin) {
+          return item.wallets;
+        }
+      }
     },
   },
 };

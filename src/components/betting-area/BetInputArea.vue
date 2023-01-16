@@ -5,7 +5,13 @@
   <div class="betting-form__description" v-if="this.game == 'Roulette'">
     Or enter your bet amount:
   </div>
-  <input type="number" class="bet-input" placeholder="(Minimal - 0.02 $SOL)" />
+  <input
+    type="number"
+    class="bet-input"
+    :class="{ error: hasError }"
+    :placeholder="inputPlaceholder"
+    ref="betInput"
+  />
   <div class="betting-buttons-row">
     <div class="betting-button">
       <div class="inside-text">min</div>
@@ -20,18 +26,40 @@
       <div class="inside-text">max</div>
     </div>
   </div>
-  <div
-    class="accept-bet-btn roulette-btn disabled"
-    disabled="disabled"
-    v-if="this.game == 'Roulette'"
-  >
-    Next round after 15 s
+  <div class="accept-bet-btn roulette-btn" v-if="this.game == 'Roulette'" @click="this.clickBetBtn">
+    Set bet
   </div>
-  <div class="accept-bet-btn plinko-btn" v-if="this.game == 'Plinko'">Run one ball</div>
-  <div class="accept-bet-btn crash-btn" v-if="this.game == 'Crash'">Set bet (next round)</div>
+  <div class="accept-bet-btn plinko-btn" v-if="this.game == 'Plinko'" @click="this.clickBetBtn">
+    Run one ball
+  </div>
+  <div class="accept-bet-btn crash-btn" v-if="this.game == 'Crash'" @click="this.clickBetBtn">
+    Set bet (next round)
+  </div>
 </template>
 
 <style lang="scss" scoped>
+.bet-input {
+  width: 100%;
+  height: 67.2px;
+  margin-top: 10px;
+  background: #535353;
+  border-radius: 15.4px;
+  padding-left: 26.6px;
+  color: #949494;
+}
+
+.accept-bet-btn {
+  width: 193px;
+  height: 43px;
+  margin: 31px auto;
+  background: #ff4900;
+  border-radius: 24.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
 .roulette-btn {
   width: 223px !important;
 }
@@ -44,6 +72,17 @@
   background: #272727 !important;
   color: #949494 !important;
 }
+
+.error {
+  background: #000000 !important;
+  border: 4.2px solid #ff4900;
+  border-radius: 15.4px !important;
+}
+
+.error::placeholder {
+  color: #ff4900;
+  font-size: 12px;
+}
 </style>
 
 <script>
@@ -52,6 +91,22 @@ export default {
     game: {
       type: String,
       required: false,
+    },
+  },
+
+  data() {
+    return {
+      hasError: false,
+      inputPlaceholder: '(Minimal - 0.02 $SOL)',
+    };
+  },
+
+  methods: {
+    clickBetBtn() {
+      this.$refs.betInput.value = '';
+      const newPlaceholder = "Sorry, vensus don't have money, please try again later";
+      this.hasError = true;
+      this.inputPlaceholder = newPlaceholder;
     },
   },
 };

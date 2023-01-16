@@ -81,6 +81,10 @@
     }
   }
 
+  @media screen and (max-height: 850px) {
+    top: 15px;
+  }
+
   .header__nav-link:hover {
     svg,
     path {
@@ -97,6 +101,10 @@
     background: #ff4900;
     margin-top: 20px;
     margin-left: -10px;
+
+    @media screen and (max-height: 850px) {
+      top: 15px;
+    }
   }
 
   .router-link-active::after {
@@ -108,6 +116,10 @@
     background: #ff4900;
     margin-top: 20px;
     margin-left: -10px;
+
+    @media screen and (max-height: 850px) {
+      margin-top: 15px;
+    }
   }
 
   .router-link-active svg,

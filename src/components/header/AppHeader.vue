@@ -37,10 +37,6 @@
   right: 55px;
   top: 15px;
 
-  @media screen and (max-width: 1480px) {
-    // margin-left: 0;
-  }
-
   @media screen and (max-width: 1160px) {
     margin-left: 50px;
 
@@ -78,6 +74,12 @@
 
   #arrow-svg {
     margin-left: 10px;
+  }
+}
+
+@media screen and (max-height: 850px) {
+  .header__login {
+    top: 8px;
   }
 }
 </style>

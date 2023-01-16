@@ -27,6 +27,14 @@
     @media screen and (max-width: 1480px) {
       width: 320px;
       margin-left: 45px;
+
+      .bet-input {
+        font-size: 14px;
+      }
+
+      .error::placeholder {
+        font-size: 10px;
+      }
     }
 
     @media screen and (max-width: 1160px) {
@@ -66,16 +74,6 @@
     margin-left: 17px;
   }
 
-  .bet-input {
-    width: 100%;
-    height: 67.2px;
-    margin-top: 10px;
-    background: #535353;
-    border-radius: 15.4px;
-    padding-left: 26.6px;
-    color: #949494;
-  }
-
   .betting-buttons-row {
     margin-top: 10px;
     display: flex !important;
@@ -107,18 +105,6 @@
     .betting-button:hover {
       transform: translateY(-2px);
     }
-  }
-
-  .accept-bet-btn {
-    width: 193px;
-    height: 43px;
-    margin: 31px auto;
-    background: #ff4900;
-    border-radius: 24.5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
   }
 }
 </style>

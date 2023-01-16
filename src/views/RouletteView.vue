@@ -92,6 +92,14 @@
     margin: 80px auto;
   }
 }
+
+@media screen and (max-height: 850px) {
+  .game-area {
+    .game-container {
+      margin: 20px auto;
+    }
+  }
+}
 </style>
 
 <script>

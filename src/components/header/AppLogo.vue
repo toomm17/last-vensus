@@ -14,6 +14,10 @@
   align-items: center;
   top: 20px;
 
+  @media screen and (max-height: 850px) {
+    top: 12px;
+  }
+
   span {
     font-family: 'CeraPro';
     font-size: 25.5px;
@@ -29,11 +33,3 @@
   }
 }
 </style>
-
-<script>
-export default {
-  data() {
-    return {};
-  },
-};
-</script>

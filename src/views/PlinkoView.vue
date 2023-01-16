@@ -1,9 +1,10 @@
 <template>
   <app-header />
-
   <div class="content">
     <div class="game-area">
-      <h1>Plinko</h1>
+      <div class="game-container">
+        <h1>Plinko</h1>
+      </div>
     </div>
     <app-bet-area game="Plinko" />
   </div>

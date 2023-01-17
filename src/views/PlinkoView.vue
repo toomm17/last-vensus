@@ -3,7 +3,7 @@
   <div class="content">
     <div class="game-area">
       <div class="game-container">
-        <h1>Plinko</h1>
+        <game />
       </div>
     </div>
     <app-bet-area game="Plinko" />
@@ -38,12 +38,14 @@
 <script>
 import AppBetArea from '@/components/betting-area/AppBetArea.vue';
 import AppHeader from '@/components/header/AppHeader.vue';
+import Game from '@/components/plinko/Game.vue';
 import GameHistory from '@/components/footer/GameHistory.vue';
 
 export default {
   components: {
     AppBetArea,
     AppHeader,
+    Game,
     GameHistory,
   },
 };

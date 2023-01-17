@@ -10,21 +10,33 @@ const routes = [
     path: '/',
     name: 'promocodes',
     component: PromocodeView,
+    meta: {
+      title: 'Vensus',
+    },
   },
   {
     path: '/plinko',
     name: 'plinko',
     component: PlinkoView,
+    meta: {
+      title: 'Plinko',
+    },
   },
   {
     path: '/roulette',
     name: 'roulette',
     component: RouletteView,
+    meta: {
+      title: 'Roulette',
+    },
   },
   {
     path: '/crash',
     name: 'crash',
     component: CrashView,
+    meta: {
+      title: 'Crash',
+    },
   },
 ];
 
@@ -34,3 +46,8 @@ const router = createRouter({
 });
 
 export default router;
+
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title;
+  next();
+});

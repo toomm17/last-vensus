@@ -57,6 +57,19 @@
   padding-left: 23px;
   padding-right: 20px;
   border-radius: 24.5px;
+
+  @media screen and (max-height: 750px) {
+    height: 40px;
+    border-radius: 20px;
+
+    span {
+      font-size: 16px;
+    }
+
+    #wallet-svg {
+      height: 18px;
+    }
+  }
 }
 </style>
 

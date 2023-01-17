@@ -64,10 +64,7 @@
 
 <style scoped lang="scss">
 .header__nav {
-  margin-left: 89px;
-  position: absolute;
-  left: 290px;
-  top: 23px;
+
 
   @media screen and (max-width: 1480px) {
     left: 150px;

@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <div class="container">
+    <div class="header-container">
       <div class="header__row">
         <app-logo />
         <app-urls />
@@ -21,21 +21,24 @@
 
 <style lang="scss">
 .header {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  display: flex;
   border-bottom: 4px solid #272727;
   height: 8.5%;
+  align-items: center;
+}
+
+.header-container {
+  width: 100%;
+  padding: 0 40px;
 }
 
 .header__row {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header__login {
-  position: absolute;
-  right: 55px;
-  top: 15px;
 
   @media screen and (max-width: 1160px) {
     margin-left: 50px;
@@ -77,11 +80,11 @@
   }
 }
 
-@media screen and (max-height: 850px) {
-  .header__login {
-    top: 8px;
-  }
-}
+// @media screen and (max-height: 850px) {
+//   .header__login {
+//     top: 8px;
+//   }
+// }
 </style>
 
 <script>

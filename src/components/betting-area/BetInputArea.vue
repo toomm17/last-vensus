@@ -81,7 +81,7 @@
 
 .error::placeholder {
   color: #ff4900;
-  font-size: 12px;
+  font-size: 14px;
 }
 </style>
 
@@ -104,7 +104,7 @@ export default {
   methods: {
     clickBetBtn() {
       this.$refs.betInput.value = '';
-      const newPlaceholder = "Sorry, vensus don't have money, please try again later";
+      const newPlaceholder = 'The game is only after investment';
       this.hasError = true;
       this.inputPlaceholder = newPlaceholder;
     },

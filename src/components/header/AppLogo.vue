@@ -8,15 +8,12 @@
 
 <style scoped lang="scss">
 .logo {
-  position: absolute;
-  left: 55px;
   display: flex;
   align-items: center;
-  top: 20px;
 
-  @media screen and (max-height: 850px) {
-    top: 12px;
-  }
+  // @media screen and (max-height: 850px) {
+  //   top: 12px;
+  // }
 
   span {
     font-family: 'CeraPro';

@@ -29,7 +29,13 @@
   <div class="accept-bet-btn roulette-btn" v-if="this.game == 'Roulette'" @click="this.clickBetBtn">
     Set bet
   </div>
-  <div class="accept-bet-btn plinko-btn" v-if="this.game == 'Plinko'" @click="this.clickBetBtn">
+  <div
+    class="accept-bet-btn plinko-btn"
+    :class="{ disabled: this.plinkoCountClick >= 3 }"
+    :disabled="this.plinkoCountClick >= 3"
+    v-if="this.game == 'Plinko'"
+    @click="this.clickBetBtn"
+  >
     Run one ball
   </div>
   <div class="accept-bet-btn crash-btn" v-if="this.game == 'Crash'" @click="this.clickBetBtn">
@@ -103,14 +109,23 @@ export default {
   },
 
   methods: {
+    changeInput() {
+      this.$refs.betInput.value = '';
+      const newPlaceholder = 'The game is only after investment';
+      this.hasError = true;
+      this.inputPlaceholder = newPlaceholder;
+    },
+
     clickBetBtn() {
       if (this.game !== 'Plinko') {
-        this.$refs.betInput.value = '';
-        const newPlaceholder = 'The game is only after investment';
-        this.hasError = true;
-        this.inputPlaceholder = newPlaceholder;
+        this.changeInput();
       } else {
+        this.plinkoCountClick += 1;
+        if (this.plinkoCountClick > 2) {
+          this.changeInput();
+        }
       }
+      console.log(this.plinkoCountClick);
     },
   },
 };

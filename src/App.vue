@@ -2,6 +2,16 @@
   <router-view />
 </template>
 
+<script>
+import AppHeader from './components/header/AppHeader.vue';
+
+export default {
+  components: {
+    AppHeader,
+  },
+};
+</script>
+
 <style lang="scss">
 $font-path: './assets/fonts/CeraPro-Medium.eot';
 
@@ -100,14 +110,12 @@ path {
   -webkit-transition: all 0.3s;
 }
 
+button,
+div {
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
 </style>
-
-<script>
-import AppHeader from './components/header/AppHeader.vue';
-
-export default {
-  components: {
-    AppHeader,
-  },
-};
-</script>

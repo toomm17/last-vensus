@@ -233,11 +233,14 @@ export default {
         };
 
         const btn = document.querySelector('.accept-bet-btn');
+        let countClicks = 0;
         btn.addEventListener('click', () => {
-          world.gravity.y = 2;
-          console.log(particles, particles.length);
-          if (particles.length >= 1) {
-            newParticle();
+          countClicks += 1;
+          if (countClicks < 4) {
+            world.gravity.y = 2;
+            if (particles.length >= 1) {
+              newParticle();
+            }
           }
         });
       };

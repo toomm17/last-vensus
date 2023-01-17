@@ -8,491 +8,49 @@
     </div>
 
     <div class="yava-diff">
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
-      <div class="number-card gray-num">
-        <div class="win-area"></div>
-        <span>4</span>
-      </div>
-      <div class="number-card red-num">
-        <div class="win-area"></div>
-        <span>8</span>
-      </div>
+      <template v-for="index in 120" :key="index">
+        <card-slider :number="this.getRandomInt(0, 36)" />
+      </template>
     </div>
   </div>
 </template>
 
-<style lang="scss" scoped>
+<script>
+import CardSlider from './CardSlider.vue';
+
+export default {
+  mounted() {
+    this.autoSlider();
+  },
+
+  components: {
+    CardSlider,
+  },
+
+  methods: {
+    autoSlider() {
+      let left = 0;
+      let timer = setInterval(() => {
+        const slider = document.querySelector('.yava-diff');
+        left -= 7;
+        slider.style.left = left + 'px';
+      }, 5);
+
+      setTimeout(() => {
+        clearInterval(timer);
+      }, 5000);
+    },
+
+    getRandomInt(min, max) {
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
+    },
+  },
+};
+</script>
+
+<style lang="scss">
 .game-slider {
   position: relative;
   margin-top: 20px;
@@ -547,20 +105,6 @@
     position: relative;
   }
 
-  .number-card {
-    width: 82px;
-    height: 135px;
-    position: relative;
-    font-size: 22px;
-    line-height: 33px;
-
-    span {
-      position: absolute;
-      bottom: 6px;
-      left: 35px;
-    }
-  }
-
   .win-area {
     position: absolute;
     width: 63px;
@@ -583,26 +127,3 @@
   }
 }
 </style>
-
-<script>
-export default {
-  mounted() {
-    this.autoSlider();
-  },
-
-  methods: {
-    autoSlider() {
-      let left = 0;
-      let timer = setInterval(() => {
-        const slider = document.querySelector('.yava-diff');
-        left -= 7;
-        slider.style.left = left + 'px';
-      }, 5);
-      
-      setTimeout(() => {
-        clearInterval(timer);
-      }, 5000);
-    },
-  },
-};
-</script>

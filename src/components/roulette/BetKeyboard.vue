@@ -3,48 +3,48 @@
     <div class="zero-btn green-num">0</div>
     <div class="keyboard-rows">
       <div class="first-row">
-        <div class="keyboard-number red-num">3</div>
-        <div class="keyboard-number gray-num">6</div>
-        <div class="keyboard-number red-num">9</div>
-        <div class="keyboard-number red-num">12</div>
-        <div class="keyboard-number gray-num">15</div>
-        <div class="keyboard-number red-num">18</div>
-        <div class="keyboard-number red-num">21</div>
-        <div class="keyboard-number gray-num">24</div>
-        <div class="keyboard-number red-num">27</div>
-        <div class="keyboard-number red-num">30</div>
-        <div class="keyboard-number gray-num">33</div>
-        <div class="keyboard-number red-num">36</div>
+        <bet-keyboard-num :number="3" />
+        <bet-keyboard-num :number="6" />
+        <bet-keyboard-num :number="9" />
+        <bet-keyboard-num :number="12" />
+        <bet-keyboard-num :number="15" />
+        <bet-keyboard-num :number="18" />
+        <bet-keyboard-num :number="21" />
+        <bet-keyboard-num :number="24" />
+        <bet-keyboard-num :number="27" />
+        <bet-keyboard-num :number="30" />
+        <bet-keyboard-num :number="33" />
+        <bet-keyboard-num :number="36" />
         <div class="keyboard-number border-num">2:1</div>
       </div>
       <div class="second-row">
-        <div class="keyboard-number gray-num">2</div>
-        <div class="keyboard-number red-num">5</div>
-        <div class="keyboard-number gray-num">8</div>
-        <div class="keyboard-number gray-num">11</div>
-        <div class="keyboard-number red-num">14</div>
-        <div class="keyboard-number gray-num">17</div>
-        <div class="keyboard-number gray-num">20</div>
-        <div class="keyboard-number red-num">23</div>
-        <div class="keyboard-number gray-num">26</div>
-        <div class="keyboard-number gray-num">29</div>
-        <div class="keyboard-number red-num">32</div>
-        <div class="keyboard-number gray-num">35</div>
+        <bet-keyboard-num :number="2" />
+        <bet-keyboard-num :number="5" />
+        <bet-keyboard-num :number="8" />
+        <bet-keyboard-num :number="11" />
+        <bet-keyboard-num :number="14" />
+        <bet-keyboard-num :number="17" />
+        <bet-keyboard-num :number="20" />
+        <bet-keyboard-num :number="23" />
+        <bet-keyboard-num :number="26" />
+        <bet-keyboard-num :number="29" />
+        <bet-keyboard-num :number="32" />
+        <bet-keyboard-num :number="35" />
         <div class="keyboard-number border-num">2:1</div>
       </div>
       <div class="third-row">
-        <div class="keyboard-number red-num">1</div>
-        <div class="keyboard-number gray-num">4</div>
-        <div class="keyboard-number red-num">7</div>
-        <div class="keyboard-number gray-num">10</div>
-        <div class="keyboard-number gray-num">13</div>
-        <div class="keyboard-number red-num">16</div>
-        <div class="keyboard-number red-num">19</div>
-        <div class="keyboard-number gray-num">22</div>
-        <div class="keyboard-number red-num">25</div>
-        <div class="keyboard-number gray-num">28</div>
-        <div class="keyboard-number gray-num">31</div>
-        <div class="keyboard-number red-num">34</div>
+        <bet-keyboard-num :number="1" />
+        <bet-keyboard-num :number="4" />
+        <bet-keyboard-num :number="7" />
+        <bet-keyboard-num :number="0" />
+        <bet-keyboard-num :number="3" />
+        <bet-keyboard-num :number="6" />
+        <bet-keyboard-num :number="9" />
+        <bet-keyboard-num :number="22" />
+        <bet-keyboard-num :number="25" />
+        <bet-keyboard-num :number="28" />
+        <bet-keyboard-num :number="31" />
+        <bet-keyboard-num :number="34" />
         <div class="keyboard-number border-num">2:1</div>
       </div>
       <div class="fourth-row">
@@ -63,6 +63,16 @@
     </div>
   </div>
 </template>
+
+<script>
+import BetKeyboardNum from './BetKeyboardNum.vue';
+
+export default {
+  components: {
+    BetKeyboardNum,
+  },
+};
+</script>
 
 <style scoped lang="scss">
 .bet-keyboard-area {
@@ -93,17 +103,6 @@
   .fifth-row {
     display: flex;
     margin-bottom: 3.5px;
-
-    .keyboard-number {
-      width: 55px;
-      height: 55px;
-      border-radius: 7.04039px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-right: 3.5px;
-      font-size: 16px;
-    }
   }
 
   .fourth-row,

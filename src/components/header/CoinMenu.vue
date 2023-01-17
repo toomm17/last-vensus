@@ -12,14 +12,54 @@
   </div>
 </template>
 
+<script>
+import Metamask from '@/services/wallets/metamask';
+import Phantom from '@/services/wallets/phantom';
+
+export default {
+  data() {
+    return {
+      coins: [
+        { name: 'BNB', img: 'bnb-logo.svg', wallets: [Metamask] },
+        { name: 'SOL', img: 'sol.svg', wallets: [Phantom] },
+        { name: 'ETH', img: 'eth-logo.svg', wallets: [Metamask] },
+      ],
+    };
+  },
+
+  emits: {
+    popupOpen: Object,
+  },
+
+  methods: {
+    clickOnCoin(coinName) {
+      const coinWallets = this.getCoinWallets(coinName);
+      this.$emit('popupOpen', coinWallets);
+    },
+
+    getCoinWallets(coin) {
+      for (let item of this.coins) {
+        if (item.name == coin) {
+          return item.wallets;
+        }
+      }
+    },
+  },
+};
+</script>
+
 <style lang="scss" scoped>
 .connected-coins-menu {
   position: absolute;
   padding: 15px 15px 15px 15px;
   background: #272727;
   border-radius: 26px;
-  top: 60px;
-  left: -15px;
+  top: 8.5%;
+  right: 10%;
+
+  @media screen and (max-width: 1480px) {
+    right: 13%;
+  }
 
   .coin {
     display: flex;
@@ -63,39 +103,3 @@
   }
 }
 </style>
-
-<script>
-import Metamask from '@/services/wallets/metamask';
-import Phantom from '@/services/wallets/phantom';
-
-export default {
-  data() {
-    return {
-      coins: [
-        { name: 'BNB', img: 'bnb-logo.svg', wallets: [Metamask] },
-        { name: 'SOL', img: 'sol.svg', wallets: [Phantom] },
-        { name: 'ETH', img: 'eth-logo.svg', wallets: [Metamask] },
-      ],
-    };
-  },
-
-  emits: {
-    popupOpen: Object,
-  },
-
-  methods: {
-    clickOnCoin(coinName) {
-      const coinWallets = this.getCoinWallets(coinName);
-      this.$emit('popupOpen', coinWallets);
-    },
-
-    getCoinWallets(coin) {
-      for (let item of this.coins) {
-        if (item.name == coin) {
-          return item.wallets;
-        }
-      }
-    },
-  },
-};
-</script>

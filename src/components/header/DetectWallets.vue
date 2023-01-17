@@ -105,8 +105,10 @@ export default {
     async detectWalletProvider(wallet) {
       const provider = await wallet.prototype.detectProvider();
       if (provider) {
-        return true;
+        console.log('Have provider');
+        return false;
       } else {
+        consoel.log('No provider');
         return false;
       }
     },

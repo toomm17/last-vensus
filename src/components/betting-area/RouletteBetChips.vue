@@ -28,6 +28,15 @@
     }
   }
 }
+
+@media screen and (max-width: 1480px) {
+  .chips {
+    img {
+      width: 55px;
+      height: 55px;
+    }
+  }
+}
 </style>
 
 <script>

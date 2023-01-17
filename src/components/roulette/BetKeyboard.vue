@@ -36,7 +36,7 @@
         <bet-keyboard-num :number="1" />
         <bet-keyboard-num :number="4" />
         <bet-keyboard-num :number="7" />
-        <bet-keyboard-num :number="0" />
+        <bet-keyboard-num :number="10" />
         <bet-keyboard-num :number="3" />
         <bet-keyboard-num :number="6" />
         <bet-keyboard-num :number="9" />

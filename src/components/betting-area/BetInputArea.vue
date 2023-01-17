@@ -98,15 +98,19 @@ export default {
     return {
       hasError: false,
       inputPlaceholder: '(Minimal - 0.02 $SOL)',
+      plinkoCountClick: 0,
     };
   },
 
   methods: {
     clickBetBtn() {
-      this.$refs.betInput.value = '';
-      const newPlaceholder = 'The game is only after investment';
-      this.hasError = true;
-      this.inputPlaceholder = newPlaceholder;
+      if (this.game !== 'Plinko') {
+        this.$refs.betInput.value = '';
+        const newPlaceholder = 'The game is only after investment';
+        this.hasError = true;
+        this.inputPlaceholder = newPlaceholder;
+      } else {
+      }
     },
   },
 };

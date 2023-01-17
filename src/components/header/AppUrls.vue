@@ -96,12 +96,8 @@
     width: 135px;
     height: 4px;
     background: #ff4900;
-    margin-top: 20px;
+    top: 8.1%;
     margin-left: -10px;
-
-    @media screen and (max-height: 850px) {
-      top: 15px;
-    }
   }
 
   .router-link-active::after {
@@ -111,12 +107,8 @@
     width: 135px;
     height: 4px;
     background: #ff4900;
-    margin-top: 20px;
+    top: 8.1%;
     margin-left: -10px;
-
-    @media screen and (max-height: 850px) {
-      margin-top: 15px;
-    }
   }
 
   .router-link-active svg,

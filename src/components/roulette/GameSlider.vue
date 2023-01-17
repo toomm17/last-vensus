@@ -8,8 +8,44 @@
     </div>
 
     <div class="yava-diff">
-      <template v-for="index in 120" :key="index">
-        <card-slider :number="this.getRandomInt(0, 36)" />
+      <template v-for="index in 3" :key="index">
+        <card-slider :number="0" />
+        <card-slider :number="32" />
+        <card-slider :number="15" />
+        <card-slider :number="19" />
+        <card-slider :number="4" />
+        <card-slider :number="21" />
+        <card-slider :number="2" />
+        <card-slider :number="25" />
+        <card-slider :number="17" />
+        <card-slider :number="34" />
+        <card-slider :number="6" />
+        <card-slider :number="27" />
+        <card-slider :number="13" />
+        <card-slider :number="36" />
+        <card-slider :number="11" />
+        <card-slider :number="30" />
+        <card-slider :number="8" />
+        <card-slider :number="23" />
+        <card-slider :number="10" />
+        <card-slider :number="5" />
+        <card-slider :number="24" />
+        <card-slider :number="16" />
+        <card-slider :number="33" />
+        <card-slider :number="1" />
+        <card-slider :number="20" />
+        <card-slider :number="14" />
+        <card-slider :number="31" />
+        <card-slider :number="9" />
+        <card-slider :number="22" />
+        <card-slider :number="18" />
+        <card-slider :number="29" />
+        <card-slider :number="7" />
+        <card-slider :number="28" />
+        <card-slider :number="12" />
+        <card-slider :number="35" />
+        <card-slider :number="3" />
+        <card-slider :number="26" />
       </template>
     </div>
   </div>

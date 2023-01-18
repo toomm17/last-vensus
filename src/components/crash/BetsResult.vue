@@ -22,6 +22,7 @@
 .bets-result-area {
   width: 250px;
   height: 300px;
+  position: absolute;
   margin-top: 100px;
   overflow-y: scroll;
 }

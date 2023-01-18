@@ -14,7 +14,7 @@
 
 <style lang="scss" scoped>
 .autostop-settings {
-  width: 378px;
+  width: 100%;
   height: 67.2px;
   border: 4.2px solid #272727;
   border-radius: 8.4px;

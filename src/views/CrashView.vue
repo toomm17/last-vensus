@@ -6,6 +6,8 @@
       <div class="game-container">
         <result-history />
         <bets-result />
+        <crash-game />
+        <crash-footer />
       </div>
     </div>
     <app-bet-area game="Crash" />
@@ -34,6 +36,12 @@
   width: 95%;
   background-color: #1b1b1b;
   border-right: 4px solid #272727;
+
+  .crash-container {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+  }
 }
 </style>
 
@@ -42,6 +50,9 @@ import AppBetArea from '@/components/betting-area/AppBetArea.vue';
 import AppHeader from '@/components/header/AppHeader.vue';
 import ResultHistory from '@/components/crash/ResultHistory.vue';
 import BetsResult from '@/components/crash/BetsResult.vue';
+import CrashCoeff from '@/components/crash/CrashCoeff.vue';
+import CrashGame from '@/components/crash/CrashGame.vue';
+import CrashFooter from '@/components/crash/CrashFooter.vue';
 import GameHistory from '@/components/footer/GameHistory.vue';
 
 export default {
@@ -50,6 +61,8 @@ export default {
     AppHeader,
     GameHistory,
     ResultHistory,
+    CrashGame,
+    CrashFooter,
     BetsResult,
   },
 };
